@@ -1,4 +1,8 @@
 flask
 numpy
+threadpoolctl
+scipy
+joblib
+scikit-learn
 sklearn
 gunicorn
