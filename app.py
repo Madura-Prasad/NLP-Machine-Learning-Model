@@ -1,8 +1,6 @@
-import tweet as tweet
 from flask import Flask, request, jsonify
 import pickle
 import numpy as np
-from app import routes
 
 model = pickle.load(open('train_model.pkl', 'rb'))
 

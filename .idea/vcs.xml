@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/nlp-model" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nlp-model-app" vcs="Git" />
   </component>
 </project>
