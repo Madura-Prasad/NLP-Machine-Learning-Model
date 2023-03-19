@@ -14,7 +14,7 @@ def index():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    tweet = request.form.get('Tweet')
+    tweet = request.form.get('tweet')
 
     input_query = np.array([tweet])
 
