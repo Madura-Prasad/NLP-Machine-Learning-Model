@@ -20,7 +20,7 @@ def predict():
 
     result = model.predict(input_query)[0]
 
-    return jsonify({'Disaster':result})
+    return jsonify({'Disaster': str(result)})
 
 
 if __name__ == '__main__':
